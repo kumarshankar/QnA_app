@@ -5,7 +5,6 @@ The answer is presented on streamlit UI. I am using Squad finetuned Bert large u
 
 Heres the streamlit based output snippet
 ![alt text](https://github.com/kumarshankar/QnA_app/blob/main/output.PNG)
-[logo:] https://github.com/kumarshankar/QnA_app/blob/main/output.PNG
 
 # Motivation
 The app fetches short answers of questions asked by user. This is a learning project that was built to understand the workings of SQUAD trained BERT QnA model
