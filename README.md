@@ -4,7 +4,7 @@ This application uses Bert Question Answering Model and Pytorch to answer questi
 The answer is presented on streamlit UI. I am using Squad finetuned Bert large uncased model
 
 Heres the streamlit based output snippet
-![alt text][logo]
+![alt text](https://github.com/kumarshankar/QnA_app/blob/main/output.PNG)
 [logo:] https://github.com/kumarshankar/QnA_app/blob/main/output.PNG
 
 # Motivation
