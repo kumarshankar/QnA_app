@@ -1,4 +1,4 @@
-# import streamlit as st
+import streamlit as st
 from model import modelHandler
 from query_handler import Query
 
@@ -12,15 +12,13 @@ Source code: https://github.com/kumarshankar/QnA_app
 
 st.subheader("Question")
 question = st.text_input('Please enter your question here')
-# question = "what is the color of the sky"
 
 query = Query(question, 2)
 context = query.get_context()
-context = context[:1000] # for compute reasons select only top 1000 chars in context
+context = context[:1000] # for compute and memory reasons select only top 1000 chars in context. Uncomment in case you have large memory
 print(context)
 
 model = modelHandler("BERT")
 st.subheader("Here's your answer")
 answer = model.get_answer(question, context)
-# print(answer)
 st.write(answer)
