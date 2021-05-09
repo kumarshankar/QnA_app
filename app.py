@@ -20,9 +20,8 @@ question = st.text_input('Please enter your question here')
 query = Query(question, 2)
 context = query.get_context()
 context = context[:1000] # for compute and memory reasons select only top 1000 chars in context. Uncomment in case you have large memory
-print(context)
 
 model = modelHandler("BERT")
 st.subheader("Here's your answer")
 answer = model.get_answer(question, context)
-st.write(answer)
+

@@ -58,6 +58,10 @@ if __name__ == "__main__":
     question2 = "Who runs faster than an elephant?"
     context_text2 = "There are several animals that are quicker than elephant. Cheetah for example sprints faster than an elephant"
 
+    question3 = "What is the capital of India?"
+    context_text3 = "The capital of India shifted from Calcutta to New Delhi in early twentieth century"
+
     print(model.get_answer(question1, context_text1))
     print(model.get_answer(question2, context_text2))
+    print(model.get_answer(question3, context_text3))
 
