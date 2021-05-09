@@ -7,9 +7,7 @@ st.write("""
 This app uses BERT base model to answer user input questions. It fetches the context for the question from internet. 
 The answer is presented on streamlit UI. I am using Squad finetuned Bert large uncased model
 
-
 Developed by : Shankar Kumar
-
 
 Source code: https://github.com/kumarshankar/QnA_app
 """)
